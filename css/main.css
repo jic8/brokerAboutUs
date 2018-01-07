@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/*macBookContactForm*/
+
+.macbookContactForm {
+	position: sticky;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../img/macbook.svg");
+}
+
+.offeceMen {
+	position: absolute;
+	top: 1;
+	left: 50vw;
+	height: 50vh;
+	width: 100vw;
+	background-image: url("../img/officeMen.svg");
+}
+
+.phoneCall {
+	animation: phoneCall .5s ease 20.5s infinite;	
+}
+
+.phone{
+	background-image: url("../img/phone.svg");
+}
+.phoneMessages{
+  background-image: url('../img/phoneMessages.svg');
+  z-index: 99;
+}
+.phone,.phoneCall,.phoneMessages {
+	position: absolute;
+	top: 10vh;
+	left: -20vw;
+	height: 75vh;
+	width: 15vw;
+}
+.macbookContactForm,
+.offeceMen,
+.phone,
+.phoneCall,
+.phoneMessages{
+	background-repeat: no-repeat;
+	display: block;
+}
+#call,#bckCall{
+	cursor: pointer;
+	transform-origin: center center;
+	animation: callBtnZoom .25s infinite;
+}
+
+.blockScrone{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  z-index: 999;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+.blockScrone span{
+  color: #fff;
+  font-size: 5vw;
+  margin-top: 50vh;
+  display: block;
+  text-align: center;
+}
+/*animation*/
+
+.sfipeToRith {
+	animation: toRiht 3s forwards;
+}
+
+@keyframes toRiht {
+	to {
+		margin-left: 35vw;
+	}
+}
+
+@keyframes phoneCall {
+	0% {
+		transform: rotate(-.1deg);
+	}
+	25% {
+		transform: rotate(-.3deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(.3deg);
+	}
+	100% {
+		transform: rotate(.1deg);
+	}
+}
+@keyframes callBtnZoom{
+	to{
+		transform: scale(1.2);
+	}
+}
+.showTo{
+  animation: 5s showBackOpacity forwards;
+}
+@keyframes showBackOpacity{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}

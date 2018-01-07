@@ -1,0 +1,29 @@
+<svg id="Phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349.85 729.45">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke: #a8a8a8;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 4.45px;
+      }
+
+      .cls-2 {
+        stroke-width: 3.34px;
+      }
+
+      .cls-3 {
+        fill: #2b2b2b;
+      }
+    </style>
+  </defs>
+  <title>phone</title>
+  <rect class="cls-1" x="2.23" y="2.23" width="345.4" height="725" rx="42.75" ry="42.75"/>
+  <circle class="cls-2" cx="175.74" cy="675.65" r="27.62"/>
+  <circle class="cls-3" cx="230.22" cy="51.89" r="4.06"/>
+  <rect class="cls-3" x="140.01" y="47.82" width="68.27" height="8.13"/>
+  <rect id="ScrinePhone" class="cls-3" x="22.75" y="86.58" width="306.64" height="546.03"/>
+</svg>
